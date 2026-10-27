@@ -1,5 +1,5 @@
 boto3
 botocore
-anthropic
+anthropic>=0.84,<1  # 1.x+ drops temperature/top_p, which these lessons rely on
 pickleshare
 python-dotenv
